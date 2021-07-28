@@ -11,6 +11,6 @@ app.get('/hello', (req, res) => {
 
 const PORT = proc.env.PORT || 8081
 
-app.listen(PORT, () => {
+app.listen(3000, () => {
     console.log('Server is running...')
 })
