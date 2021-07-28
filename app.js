@@ -9,8 +9,6 @@ app.get('/hello', (req, res) => {
     res.json({message: 'Hello World'})
 })
 
-const PORT = proc.env.PORT || 8081
-
 app.listen(3000, () => {
     console.log('Server is running...')
 })
